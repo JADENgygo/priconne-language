@@ -17,7 +17,7 @@ const Home: NextPage = () => {
     else {
       setError("使用できない文字が含まれています");
     }
-    setSource(letters);
+    setSource(e.target.value);
   };
 
   return (

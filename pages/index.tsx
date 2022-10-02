@@ -35,7 +35,7 @@ const Home: NextPage = () => {
             return <br key={i} />;
           }
           const path = (e === " " || e === "　") ? "/space.webp" : ("/" + e + ".webp");
-          return <img key={i} className="img-fluid" src={path} />
+          return <img key={i} className="img-fluid" src={path} width="25" height="25" />
         })
       }
     </div>
